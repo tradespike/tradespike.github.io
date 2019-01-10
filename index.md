@@ -8,7 +8,7 @@
 
 <div>
     <p class="middle"><img src="assets/image/kendama-trainer-60.png" alt="けん玉練習帳" /></p>
-    <p class="midle">けん玉練習帳</p>
+    <p class="middle">けん玉練習帳</p>
 </div>
 
 <div>
