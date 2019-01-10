@@ -7,13 +7,13 @@
 </div>
 
 <div>
-    <p><img src="assets/image/kendama-trainer-60.png" alt="けん玉練習帳" /></p>
-    <p>けん玉練習帳</p>
+    <p class="middle"><img src="assets/image/kendama-trainer-60.png" alt="けん玉練習帳" /></p>
+    <p class="midle">けん玉練習帳</p>
 </div>
 
 <div>
-    <img src="assets/image/kendama-grade-tables-60.png" alt="けん玉認定表" />
-    けん玉認定表
+    <p class="middle"><img src="assets/image/kendama-grade-tables-60.png" alt="けん玉認定表" /></p>
+    <p class="middle">けん玉認定表</p>
 </div>
 
 <a name="Company"></a>
