@@ -2,7 +2,10 @@
 ## プロダクト
 
 <p class="middle">
-![けん玉練習帳](assets/image/kendama-trainer-60.png) けん玉練習帳
+<img src="assets/image/kendama-trainer-60.png" alt="けん玉練習帳" /> けん玉練習帳
+</p>
+<p class="middle">
+<img src="assets/image/kendama-grade-tables-60.png" alt="けん玉認定表" /> けん玉認定表
 </p>
 
 <a name="Company"></a>
