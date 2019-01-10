@@ -2,6 +2,9 @@
 ## プロダクト
 
 <p class="middle">
+<img src="assets/image/KWC_logo-60.png" alt="けん玉ワールドカップトリックシート" /> けん玉ワールドカップトリックシート
+</p>
+<p class="middle">
 <img src="assets/image/kendama-trainer-60.png" alt="けん玉練習帳" /> けん玉練習帳
 </p>
 <p class="middle">
