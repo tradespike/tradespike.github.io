@@ -1,3 +1,17 @@
 .middle {
     vertical-align: middle;
 }
+
+#custom-top {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#custom-logo {
+    text-align: left;
+}
+
+#custom-menu {
+    text-align: right;
+}
