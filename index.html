@@ -8,69 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./style.css">
+
     <title>Tradespike</title>
-    <style>
-        body {
-            padding-top: 56px;
-            font-size: 120%;
-        }
-
-        .jumbotron {
-            color: #fff;
-            text-align: center;
-            background-color: #159957;
-            background-image: linear-gradient(120deg, #155799, #159957);
-            border-radius: 0;
-            margin-bottom: 0;
-            padding-top: 2em;
-            padding-bottom: 2em;
-        }
-
-        .bg-container {
-            padding-top: 3em;
-            padding-bottom: 3em;
-        }
-
-        .product {
-            margin-top: 1em;
-            margin-bottom: 2em;
-        }
-
-        .product p {
-            display: table-cell;
-            vertical-align: middle;
-            font-size: 120%;
-            padding-right: 0.5em;
-        }
-
-        .product-description {
-            margin-top: 1em;
-        }
-
-        .download {
-            margin-top: 1em;
-        }
-
-        img.app-store {
-            height: 40px;
-        }
-
-        img.google-play {
-            height: 60px;
-        }
-
-        #company dl dt {
-            margin-top: 1em;
-        }
-        #company dl dd {
-            margin-left: 5em;
-        }
-
-        #footer {
-            padding-top: 1em;
-            padding-bottom: 1em;
-        }
-    </style>
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
@@ -87,7 +27,10 @@
                         <a class="nav-link" href="#products">プロダクト</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#company">会社情報</a>
+                        <a class="nav-link" href="./TimeSlot/">Time Slot</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./company.html">会社情報</a>
                     </li>
                 </ul>
             </div>
@@ -111,7 +54,7 @@
                 <div class="container">
                     <h3>プロダクト</h3>
                     <div class="product">
-                        <p><img src="assets/image/kendama-kentei-60.png" /></p>
+                        <p><img class="icon" src="assets/image/kendama-kentei-60.png" /></p>
                         <p>けん玉検定</p>
                         <div class="product-description">
                             けん玉検定（GLOKEN）の技の練習を記録するアプリ<br />
@@ -122,7 +65,7 @@
                         </div>
                     </div>
                     <div class="product">
-                        <p><img src="assets/image/KWC_logo-60.png" /></p>
+                        <p><img class="icon" src="assets/image/KWC_logo-60.png" /></p>
                         <p>けん玉ワールドカップトリックシート</p>
                         <div class="product-description">
                             けん玉ワールドカップのトリックの習得度合いを視覚化するアプリ
@@ -133,7 +76,7 @@
                         </div>
                     </div>
                     <div class="product">
-                        <p><img src="assets/image/kendama-trainer-60.png" /></p>
+                        <p><img class="icon" src="assets/image/kendama-trainer-60.png" /></p>
                         <p>けん玉練習帳</p>
                         <div class="product-description">
                             けん玉の練習を記録するアプリ<br />
@@ -145,7 +88,7 @@
                         </div>
                     </div>
                     <div class="product">
-                        <p><img src="assets/image/kendama-grade-tables-60.png" /></p>
+                        <p><img class="icon" src="assets/image/kendama-grade-tables-60.png" /></p>
                         <p>けん玉認定表</p>
                         <div class="product-description">
                             けん玉の認定表を表示するアプリ<br />
@@ -155,25 +98,6 @@
                             <a href="https://itunes.apple.com/jp/app/kendama-grade-tables/id1255055867?mt=8"><img class="app-store" src="assets/image/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="App Store" /></a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="bg-container bg-light" id="company">
-                <div class="container">
-                    <h3>会社情報</h3>
-                    <dl>
-                        <dt>会社名</dt>
-                        <dd>トレードスパイク合同会社<br />（英記：Tradespike G.K.）</dd>
-                        <dt>住所</dt>
-                        <dd>〒100-0004<br />東京都千代田区大手町1-6-1<br />SPACES 大手町ビル 1階</dd>
-                        <dt>設立</dt>
-                        <dd>2019年1月7日</dd>
-                        <dt>代表</dt>
-                        <dd>畑 慎也</dd>
-                        <dt>事業内容</dt>
-                        <dd>スマートフォン向け、けん玉アプリの企画・開発・運用</dd>
-                        <dt>連絡先</dt>
-                        <dd>contact [ at ] tradespike.co.jp</dd>
-                    </dl>
                 </div>
             </div>
             <div class="bg-container" id="footer">
